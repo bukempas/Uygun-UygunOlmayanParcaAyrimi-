@@ -1,4 +1,4 @@
-# Uygun-UygunOlmayan-ParcaAyrimi
+# Uygun-UygunOlmayan-ParcaAyrimi (CNN-TfLite-Object Detection)
 
 Bilgisayar Görüntüsü (Computer Vision) ve Evrişimsel Sinir Ağları (CNN) kullanarak parça ayrımı yapabilmek
 
