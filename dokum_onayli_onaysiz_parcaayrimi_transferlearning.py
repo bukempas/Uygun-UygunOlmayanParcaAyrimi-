@@ -1,4 +1,4 @@
-Evrişimsel Sinir Ağları(CNN) ve Öğrenme Aktarımı (Tranfer Learning) kullanarak Onaylı/Onaysız Parça Ayrımı**
+Evrişimsel Sinir Ağları(CNN) ve Öğrenme Aktarımı (Tranfer Learning) kullanarak Onaylı/Onaysız Parça Ayrımı
 
 
 # 1.Kütüphanelerin İndirilmesi
