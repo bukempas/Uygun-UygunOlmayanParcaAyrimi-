@@ -165,11 +165,11 @@ colab_utils.annotate(train_images_np, box_storage_pointer=gt_boxes)
 
 
 #gt_boxes = [
-             #np.array([[0.436, 0.591, 0.629, 0.712]], dtype=np.float32),
-             #np.array([[0.539, 0.583, 0.73, 0.71]], dtype=np.float32),
-             #np.array([[0.464, 0.414, 0.626, 0.548]], dtype=np.float32),
-             #np.array([[0.313, 0.308, 0.648, 0.526]], dtype=np.float32),
-             #np.array([[0.256, 0.444, 0.484, 0.629]], dtype=np.float32)
+             #np.array([[0.43, 0.591, 0.62, 0.71]], dtype=np.float32),
+             #np.array([[0.53, 0.583, 0.73, 0.71]], dtype=np.float32),
+             #np.array([[0.46, 0.414, 0.62, 0.54]], dtype=np.float32),
+             #np.array([[0.31, 0.308, 0.64, 0.52]], dtype=np.float32),
+             #np.array([[0.25, 0.444, 0.48, 0.62]], dtype=np.float32)
  ]
 
 # Eğitim için verilerin hazırlanması
