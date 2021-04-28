@@ -1,6 +1,6 @@
 # Uygun/Uygun Olmayan Parca Ayrimi (CNN-TfLite-Object Detection)
 
-Bilgisayar Görüntüsü (Computer Vision) ve Evrişimsel Sinir Ağları (CNN) kullanarak parça ayrımı yapabilmek
+## Bilgisayar Görüntüsü (Computer Vision) ve Evrişimsel Sinir Ağları (CNN) kullanarak parça ayrımı yapabilmek
 
 “Esnek ve Hızlı Üretim” noktasına ulaşmanın yolu, kaliteli parça kullanımı ve kaliteli parça/organ üretimlerinin hızlı ayıklanması/onaylanması ile gerçekleşecektir. Mevcut yöntemlerden en çok kullanılanlardan olan elle ve gözle yapılan kontroller artık bu noktada cevap veremeyecektir.
 Derin Öğrenme Evrişimsel Sinir Ağları Algoritması (Uygun/Uygun Olmayan sınıflandırması için) ve Computer Vision (Bilgisayar ile Görüntü İşleme) kullanarak parça/organ onayları ve ayıklanması daha hızlı, daha ekonomik ve daha dijital hale getirilebilir.
@@ -16,9 +16,9 @@ Daha iyi sonuç alabilmek için Öğrenme Aktarımı (Transfer Learning) kullan�
    for layer in tflearning_model.layers:
     layer.trainable = False "
 
-Ayrıca kendi veri setimiz olduğu için TensorFlow Lite Model Maker ile bir model oluşturup bunu Android Studio ile uygulama haline getirebiliriz. Bunun için de modeli bulabilirsiniz.
+## Ayrıca TensorFlow Lite Model Maker ile bir model oluşturup bunu Android Studio ile uygulama haline getirebiliriz. Bunun için de modeli bulabilirsiniz.
 
 
-Onaysız parçalardaki uygunsuzlukları Nesne Tanımlama ile tespit etmek edebiliriz.
+## Onaysız parçalardaki uygunsuzlukları Nesne Tanımlama ile Tespit Etmek
 Bunun için RetinaNet mimarisinden Öğrenme Aktarımı ve İnce Ayar(önceden eğitilmiş COCO checkpoint) 
 ile sadece 5 eğitim görüntü veri seti ile yeni görüntüleri hızlı şekilde test edilebilir. Çalışma Zamanı GPU seçilerek hızlı şekilde sonuçlar alınacaktır.
