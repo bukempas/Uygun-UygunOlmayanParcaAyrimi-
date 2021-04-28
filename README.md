@@ -15,3 +15,7 @@ Daha iyi sonuç alabilmek için Öğrenme Aktarımı (Transfer Learning) kullan�
  " tflearning_model = tf.keras.applications.InceptionResNetV2(weights = 'imagenet', include_top = False, input_shape = (250,250,3))
    for layer in tflearning_model.layers:
     layer.trainable = False "
+
+Ayrıca kendi veri setimiz olduğu için TensorFlow Lite Model Maker ile bir model oluşturup bunu Android Studio ile uygulama haline getirebiliriz. Bunun için de modeli bulabilirsiniz.
+
+Hızlı şekilde 5 görüntü ile Uygun Olmayan Parça'daki Nesne Algılama Algoritması da bulunmaktadır.
