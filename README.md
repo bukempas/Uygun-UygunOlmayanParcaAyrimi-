@@ -18,4 +18,7 @@ Daha iyi sonuç alabilmek için Öğrenme Aktarımı (Transfer Learning) kullan�
 
 Ayrıca kendi veri setimiz olduğu için TensorFlow Lite Model Maker ile bir model oluşturup bunu Android Studio ile uygulama haline getirebiliriz. Bunun için de modeli bulabilirsiniz.
 
-Hızlı şekilde 5 görüntü ile Uygun Olmayan Parça'daki Nesne Algılama Algoritması da bulunmaktadır.
+
+Onaysız parçalardaki uygunsuzlukları Nesne Tanımlama ile tespit etmek edebiliriz.
+Bunun için RetinaNet mimarisinden Öğrenme Aktarımı ve İnce Ayar(önceden eğitilmiş COCO checkpoint) 
+ile sadece 5 eğitim görüntü veri seti ile yeni görüntüleri hızlı şekilde test edilebilir. Çalışma Zamanı GPU seçilerek hızlı şekilde sonuçlar alınacaktır.
