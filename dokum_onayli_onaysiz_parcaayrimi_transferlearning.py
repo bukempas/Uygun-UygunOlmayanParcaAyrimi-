@@ -129,12 +129,12 @@ plt.show()
 import seaborn as sns
 from sklearn import metrics
 
-# Make predictions on images in the test set
+# Test dosyasındaki görüntülerle tahminleme yapmak (olasılık sonucu 0,5 altı uygun olmayan, 0,5 ve üstü uygun)
 pred_proba = model.predict(test_generator, verbose=1)
 threshold = 0.5
 pred = pred_proba >= threshold
 
-# Visualize the confusion matrix
+# Karmaşıklık Matrisi (confusion matrix)
 plt.figure(figsize=(6,4))
 sns.heatmap(
     metrics.confusion_matrix(test_generator.classes,pred),
