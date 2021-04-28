@@ -1,4 +1,4 @@
-# Uygun-UygunOlmayanParcaAyrimi-
+# Uygun-UygunOlmayan-ParcaAyrimi
 
 Bilgisayar Görüntüsü (Computer Vision) ve Evrişimsel Sinir Ağları (CNN) kullanarak parça ayrımı yapabilmek
 
