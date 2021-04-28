@@ -1,7 +1,3 @@
-
-
-Daha detay bilgi için : https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
-
 #Tensorflow 2.2 yüklenmesi 
 
 !pip install -U --pre tensorflow=="2.2.0"
