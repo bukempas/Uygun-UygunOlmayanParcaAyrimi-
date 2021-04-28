@@ -16,7 +16,22 @@ Daha iyi sonuç alabilmek için Öğrenme Aktarımı (Transfer Learning) kullan�
    for layer in tflearning_model.layers:
     layer.trainable = False "
 
-## Ayrıca TensorFlow Lite Model Maker ile bir model oluşturup bunu Android Studio ile uygulama haline getirebiliriz. Bunun için de modeli bulabilirsiniz.
+### Modelleme sonucu Confusion Matrix ve Classification Report :
+
+![image](https://user-images.githubusercontent.com/59708846/116383467-885a3d80-a81f-11eb-80b4-9d2b429c91cc.png)
+
+              precision    recall  f1-score   support
+
+    Onaysiz     1.0000    0.9911    0.9955       448
+     Onayli     0.9847    1.0000    0.9923       257
+
+    accuracy      -         -        0.9943      705
+    macro avg    0.9923    0.9955    0.9939      705
+    wghtd avg    0.9944    0.9943    0.9943      705
+
+
+## TensorFlow Lite Model 
+Ayrıca TensorFlow Lite Model Maker ile bir model oluşturup bunu Android Studio ile uygulama haline getirebiliriz. Bunun için de modeli bulabilirsiniz.
 
 
 ## Onaysız parçalardaki uygunsuzlukları Nesne Tanımlama ile Tespit Etmek
