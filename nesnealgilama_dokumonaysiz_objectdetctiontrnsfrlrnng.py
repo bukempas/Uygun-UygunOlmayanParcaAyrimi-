@@ -1,8 +1,4 @@
-# Onaysız Parça için Hızlı Şekilde Nesne Tanımlama Colab
 
-Onaysız parçalardaki uygunsuzlukları Nesne Tanımlama ile tespit etmek istiyoruz. 
-Burada RetinaNet mimarisinden Öğrenme Aktarımı ve İnce Ayar(önceden eğitilmiş COCO checkpoint) 
-ile sadece 5 eğitim görüntü veri seti ile yeni görüntüleri hızlı şekilde test edeceğiz. Çalışma Zamanı GPU seçilerek hızlı şekilde sonuçlar alınacaktır.
 
 Daha detay bilgi için : https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 
